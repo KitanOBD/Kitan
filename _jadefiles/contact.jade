@@ -1,0 +1,29 @@
+section.booking-contact
+  .contact-div
+    .col-5.flex.flex--center
+      h2 CONTACT
+    
+    include social.jade
+    
+    .flex.flex--center
+      #form-main
+        #form-div                        
+            form#form1.form(action='http://formspree.io/kitan.ogunfeibo@gmail.com', method='POST')
+              p.name
+                input#title.feedback-input(name='name', type='text', class='validate[required,custom[onlyLetter],length[0,100]]', placeholder='Name')
+                
+              p.email
+                input#email.feedback-input(name='email', type='text', class='validate[required,custom[email]]', placeholder='Email')
+                
+              p.subject
+                input#title.feedback-input(name='subject', type='text', class='validate[required,custom[onlyLetter],length[0,100]]', placeholder='Subject')
+   
+              p.text
+                textarea#message.feedback-input(name='text', class='validate[required,length[6,300]]', placeholder='Message')
+
+
+
+              .submit
+                input#button-blue(type='submit', value='SEND')
+    
+                .ease

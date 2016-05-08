@@ -1,0 +1,37 @@
+/* Bob */
+
+@keyframes hvr-bob
+  0%
+    transform: translateY(-5px)
+
+  50%
+    transform: translateY(-2.5px)
+
+  100%
+    transform: translateY(-5px)
+
+
+@keyframes hvr-bob-float
+
+  100%
+    transform: translateY(-5px)
+
+
+
+.hvr-bob
+  display: inline-block
+  vertical-align: middle
+  transform: translateZ(0)
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0)
+  backface-visibility: hidden
+
+.hvr-bob:hover,
+.hvr-bob:focus,
+.hvr-bob:active
+  animation-name: hvr-bob-float, hvr-bob
+  animation-duration: .4s, 1.5s
+  animation-delay: 0s, .3s
+  animation-timing-function: ease-in-out, ease-in-out
+  animation-iteration-count: 1, infinite
+  animation-fill-mode: forwards
+  animation-direction: normal, alternate

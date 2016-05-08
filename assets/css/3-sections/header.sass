@@ -1,0 +1,153 @@
+.home-wrap
+  header
+    height: 50px
+    padding: 5px 0 0 0
+    background: white
+
+    /*flexbox code
+
+    .header-position
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      height: 60px
+      display: flex
+      flex-direction: row
+      justify-content: center
+      align-items: center
+      //position: fixed
+
+    .logo
+      +hide-text
+      background:
+        image: url(/assets/img/logo2.svg)
+        repeat: no-repeat
+        position: center
+        size: contain
+        //color: pink
+      width: 40px
+      position: absolute
+      top: 10px
+      left: 20px
+
+    .site-nav
+      ul
+        display: flex
+        flex-direction: row
+        justify-content: center
+        list-style: none
+        margin: 0
+        padding: 0
+        text-align: center
+
+
+      lis
+        margin-right: 70px
+        transition: 0.1s ease-out
+
+
+        &:last-child
+          margin-right: 0
+
+
+        &:hover
+          transform: scale(1.02)
+
+      a
+        color: #3f3f42
+        margin: 0
+        padding: 5px
+        font:
+          size: 14px
+        letter-spacing: 3px
+
+        &:hover
+          color: $accent-colour
+
+
+
+    .mobile-nav-toggle
+      display: none
+      width: 50px
+      height: 50px
+      //background: pink
+      margin: 0 20px
+      align-items: center
+      cursor: pointer
+
+      span,
+      span:before,
+      span:after
+        content: ""
+        display: block
+        height: 2px
+        width: 100%
+        background: #333
+        position: relative
+
+        transition: all 0.3s ease-in-out
+
+      span:before
+        top: 15px
+
+      span:after
+        top: -17px
+
+      &.is-open span
+        background: transparent
+
+      &.is-open span:before,
+      &.is-open span:after
+        transform-origin: center
+        transform: rotate(45deg)
+        top: 0
+
+      &.is-open span:before
+          transform: rotate(-45deg)
+
+  // Mobile Nav
+  .mobile-nav
+    display: none
+    position: absolute
+    width: 100%
+    background: white
+    padding: 30px 0 20px
+    transform: translateY(-100%)
+    transition: all 0.3s ease-in-out
+
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+
+    li
+      text-align: center
+      margin-bottom: 10px
+
+
+
+@media (max-width: 775px)
+  .home-wrap
+    header
+      width: auto
+      padding: 0
+
+      .header-position
+        position: relative
+        top: auto
+        bottom: auto
+        left: auto
+        flex-direction: row
+        align-items: center
+        justify-content: flex-start
+
+      .site-nav
+        display: none
+
+      .mobile-nav-toggle
+        display: flex
+
+    .mobile-nav.is-open
+      display: block
+      transform: translateY(0%)

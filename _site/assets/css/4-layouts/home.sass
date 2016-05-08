@@ -1,0 +1,149 @@
+.home-wrap
+  display: block
+
+  @media (max-width: 775px)
+    display: block
+
+.home-sections
+  flex: 1
+
+  section
+
+    padding-bottom: 45px
+
+  //hover space for header
+
+  .hover-space
+    height: 50px
+    background: none
+    position: fixed
+
+  //social media icons position
+
+  .social-positon
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+
+  .social-nav
+    margin-top: 10px
+    margin-bottom: 45px
+    padding-top: 5px
+
+
+    ul
+      display: flex
+      flex-direction: row
+      justify-content: center
+      list-style: none
+      margin: 0
+      padding: 0
+      text-align: center
+
+
+    li
+      margin-right: 72px
+      padding: 10px
+
+      &:last-child
+        margin-right: 0
+
+      &:hover
+        //transform: scale(1.1)
+        filter: invert(0.3)
+
+    a
+
+      +hide-text
+      display: flex
+      background:
+        repeat: no-repeat
+        position: center
+        size: contain
+      height: 17px
+      width: 17px
+
+
+  // Flex Classes
+  .flex
+    display: flex
+    flex-direction: rows
+
+  .flex--column
+    display: flex
+    flex-direction: column
+
+  .flex--center
+    justify-content: center
+
+  .flex--space-around
+    justify-content: space-around
+
+  .flex--space-between
+    justify-content: space-between
+
+  .flex--end
+    justify-content: flex-end
+
+  .flex-start
+    justify-content: flex-start
+
+  .order-first
+    order: -1
+
+
+
+  // columns
+
+.col-0
+  width: 340px
+  margin: 0 10px
+
+.col-1
+  max-width: 300px
+  margin: 0 10px
+
+.col-2
+  max-width: 620px
+  margin: 0 10px
+
+.col-3
+  width: 800px
+  margin: 0 10px
+
+.col-4
+  width: 800px
+
+.col-50
+  width: 50%
+
+.push-left
+  margin-right: 150px
+
+@media (max-width: 640px)
+  .home-sections .flex
+    display: block
+
+  .col-0
+    max-width: 100%
+
+  .col-1
+    max-width: 100%
+
+  .col-50
+    width: auto
+
+  .col-3
+    width: auto
+
+  .push-left
+    margin-right: 0
+
+// Typography
+
+.home-lead
+  font-size: 16px
+
+  &.outdented
+    text-indent: 1em

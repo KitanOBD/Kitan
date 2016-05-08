@@ -1,0 +1,23 @@
+//header
+
+mixin nav-content()
+  ul
+    lis: a(href="/") HOME
+    lis: a(href="/about") ABOUT
+    lis: a(href="/music") MUSIC
+    lis: a(href="/beats") BUY BEATS
+    lis: a(href="/contact") BOOKINGS & CONTACT
+
+
+.mobile-nav
+  +nav-content()
+
+header.header
+  .hover-space#home
+  .header-position
+    .logo
+      h2 L
+    nav.site-nav
+      +nav-content()
+    
+    .mobile-nav-toggle: span
