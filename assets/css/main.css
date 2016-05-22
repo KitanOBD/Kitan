@@ -800,7 +800,7 @@ section:nth-child(odd) {
     width: auto;
     padding: 0; }
     .home-wrap header .header-position {
-      position: fixed;
+      position: absolute;
       top: 0;
       bottom: 0;
       left: 0;
@@ -983,8 +983,8 @@ section.booking-contact {
       margin-bottom: 5px; }
 
 @media (max-width: 640px) {
-  section.booking-contact h2 {
-    margin: 0;
+  section.booking-contact .contact-div h2 {
+    margin-top: 20px;
     padding: 0;
     text-align: center; } }
 
@@ -1109,9 +1109,8 @@ textarea {
 @media (max-width: 580px) {
   #form-div {
     left: 3%;
-    margin-right: 0;
+    margin: 20px 0 0 0;
     width: 88%;
-    margin-left: 0;
     padding-left: 3%;
     padding-right: 3%; } }
 
