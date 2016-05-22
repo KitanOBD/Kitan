@@ -9,15 +9,16 @@ mixin nav-content()
     lis: a(href="/contact") BOOKINGS & CONTACT
 
 
-.mobile-nav
-  +nav-content()
 
 header.header
-  .hover-space#home
-  .header-position
+  .header-position#home
     .logo
-      h2 L
+      a(href="/" style="background-image: url(/assets/img/logo2.svg)")
+      
     nav.site-nav
       +nav-content()
     
     .mobile-nav-toggle: span
+
+.mobile-nav
+  +nav-content()

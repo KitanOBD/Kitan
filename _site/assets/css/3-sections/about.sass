@@ -5,13 +5,21 @@ section.about
   .banner
     height: 300px
     width: 800px
-    margin-top: 70px
-    margin-bottom: 45px
+    margin-top: 40px
+    margin-bottom: 35px
     padding: 5px 0
     background:
       image: url(/assets/img/about_bg.jpg)
       size: cover
       position: center top
 
+    @media (max-width: 640px)
+      margin: 0 auto
+
+      width: 95%
+
+
+
   .col-3
+    text-align: justify
     margin-top: 5px

@@ -176,7 +176,7 @@ function timerModule (options) {
 
     function onMobileToggleClick (e) {
         var $this = $(this),
-            $navigation = $('.mobile-nav');
+            $navigation = $('.mobile-nav, .header-position');
 
         $this.toggleClass('is-open');
         $navigation.toggleClass('is-open');
