@@ -484,13 +484,9 @@ fieldset {
 
 @media screen and (max-width: 480px) {
   h3 {
-    padding: 50px 0 50px; } }
-
-section:nth-child(odd) {
-  background: #F6F6F8;
-  padding-bottom: 100px; }
-  section:nth-child(odd) h3 {
-    color: #9a4038; }
+    padding: 50px 0 50px; }
+  h3 {
+    color: #9a4038; } }
 
 /*Status API Training Shop Blog About© 2016 GitHub, Inc. Terms Privacy Security Contact Help */
 /* Bob */
@@ -1115,7 +1111,8 @@ textarea {
     padding-right: 3%; } }
 
 section.footer {
-  background: white; }
+  background: white;
+  padding: 0; }
   section.footer .social-positon {
     top: 0;
     left: 0;
