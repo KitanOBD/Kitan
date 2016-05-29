@@ -956,7 +956,7 @@ section.music {
 
 section.buy-beats {
   background-color: white;
-  height: 100%; }
+  min-height: 60vh; }
   section.buy-beats .col-3 .indent {
     margin-left: 10px; }
   section.buy-beats .col-3 p {
@@ -969,7 +969,7 @@ section.buy-beats {
 
 section.web-design {
   background-color: white;
-  min-height: 100vh; }
+  min-height: 60vh; }
   section.web-design .col-3 .indent {
     margin-left: 10px; }
   section.web-design .col-3 p {
@@ -985,7 +985,7 @@ section.web-design {
 
 section.booking-contact {
   background-color: white;
-  min-height: 100vh; }
+  min-height: 60vh; }
   section.booking-contact .contact-div {
     padding-top: 60px; }
     section.booking-contact .contact-div .cta {
@@ -1210,8 +1210,7 @@ section.footer {
     margin-right: 30px; } }
 
 .home-wrap {
-  display: block;
-  min-height: 100vh; }
+  display: block; }
   @media (max-width: 775px) {
     .home-wrap {
       display: block; } }
