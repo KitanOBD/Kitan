@@ -1210,7 +1210,8 @@ section.footer {
     margin-right: 30px; } }
 
 .home-wrap {
-  display: block; }
+  display: block;
+  height: 100%; }
   @media (max-width: 775px) {
     .home-wrap {
       display: block; } }
