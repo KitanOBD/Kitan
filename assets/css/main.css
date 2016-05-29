@@ -775,6 +775,12 @@ fieldset {
     list-style: none;
     margin: 0;
     padding: 0; }
+    @media (max-width: 1080px) {
+      .home-wrap .mobile-nav ul {
+        padding: 3% 0; } }
+    @media (max-width: 540px) {
+      .home-wrap .mobile-nav ul {
+        padding: 5% 0; } }
   .home-wrap .mobile-nav lis {
     text-align: center;
     margin-bottom: 15px; }
@@ -848,7 +854,7 @@ section.home-home {
     background-image: url(../img/logowhite_bg.jpg);
     background-size: cover;
     background-position: center top; }
-    @media (max-width: 640px) {
+    @media (max-width: 1080px) {
       section.home-home .logo {
         margin: 0 auto;
         padding-top: 10px;
@@ -949,18 +955,47 @@ section.music {
       width: 90%; } }
 
 section.buy-beats {
-  background-color: white; }
+  background-color: white;
+  min-height: 100vh; }
   section.buy-beats .col-3 .indent {
     margin-left: 10px; }
+  section.buy-beats .col-3 p {
+    letter-spacing: 1px;
+    text-align: justify; }
   section.buy-beats .col-3 .mail a {
     color: #3f3f42; }
     section.buy-beats .col-3 .mail a:hover {
       color: #BD5248; }
 
+section.web-design {
+  background-color: white;
+  min-height: 100vh; }
+  section.web-design .col-3 .indent {
+    margin-left: 10px; }
+  section.web-design .col-3 p {
+    text-align: justify;
+    letter-spacing: 0.8px; }
+  section.web-design .col-3 a {
+    color: #BD5248; }
+    section.web-design .col-3 a:hover {
+      color: #3f3f42; }
+  section.web-design .col-3 .segments p {
+    margin-left: 20px;
+    margin-right: 20px; }
+
 section.booking-contact {
-  background-color: white; }
+  background-color: white;
+  min-height: 100vh; }
   section.booking-contact .contact-div {
     padding-top: 60px; }
+    section.booking-contact .contact-div .cta {
+      padding-bottom: 30px; }
+      section.booking-contact .contact-div .cta p {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 5px; }
+        section.booking-contact .contact-div .cta p:last-child {
+          padding-bottom: 0; }
     section.booking-contact .contact-div h2 {
       color: #3f3f42;
       font-family: 'Lato';
