@@ -956,8 +956,7 @@ section.music {
 
 section.buy-beats {
   background-color: white;
-  height: 100%;
-  min-height: 100%; }
+  height: 100%; }
   section.buy-beats .col-3 .indent {
     margin-left: 10px; }
   section.buy-beats .col-3 p {
