@@ -8,7 +8,7 @@ title: Kitan
  <link rel="icon"  type="image/png"    href="/assets/img/favicon-32x32.png">
 
  {% include header.html %}
- 
+
  <div class="home-sections">
 
   {% include home-home.html %}
@@ -19,6 +19,19 @@ title: Kitan
  {% include footer.html %}
 
 </div>
+
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "assets/js/functions.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
 
 <script src="assets/js/jquery-2.2.3.min.js"></script>
 <script src="assets/js/functions.js"></script>
