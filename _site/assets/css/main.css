@@ -887,7 +887,7 @@ section.posts {
     display: block;
     margin: 0 auto;
     padding: 20px 0 100px 0;
-    content: url(/assets/img/tea.jpg); }
+    content: url(/assets/img/tea.png); }
     @media (max-width: 1080px) {
       section.posts .img-1 {
         width: 95%; } }
