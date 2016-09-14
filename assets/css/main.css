@@ -756,8 +756,7 @@ fieldset {
       -ms-transform: translateY(-100%);
           transform: translateY(-100%);
   -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  z-index: 1; }
+  transition: all 0.3s ease-in-out; }
   .home-wrap .mobile-nav ul {
     display: -webkit-box;
     display: -webkit-flex;
@@ -820,8 +819,7 @@ fieldset {
       -webkit-box-pack: start;
       -webkit-justify-content: flex-start;
           -ms-flex-pack: start;
-              justify-content: flex-start;
-      z-index: 1; }
+              justify-content: flex-start; }
       .home-wrap header .header-position .logo {
         display: none; }
     .home-wrap header .site-nav {
