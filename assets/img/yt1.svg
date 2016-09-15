@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="461.001" height="461.001">
+    <desc iVinci="yes" version="4.6" gridStep="20" showGrid="no" snapToGrid="no" codePlatform="0"/>
+    <g id="Layer1" name="Layer 1" opacity="1">
+        <g id="Shape1">
+            <desc shapeID="1" type="0" basicInfo-basicType="0" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-230.501,-163.108,461.001,326.216)" text="" font-familyName="" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(1,0,0,1,230.501,230.501)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath1" d="M365.257,67.393 L95.744,67.393 C42.866,67.393 0,110.259 0,163.137 L0,297.865 C0,350.743 42.866,393.609 95.744,393.609 L365.257,393.609 C418.135,393.609 461.001,350.743 461.001,297.865 L461.001,163.137 C461.001,110.259 418.135,67.393 365.257,67.393 M300.506,237.056 L174.446,297.179 C171.087,298.781 167.207,296.332 167.207,292.611 L167.207,168.607 C167.207,164.833 171.189,162.387 174.555,164.093 L300.615,227.974 C304.363,229.873 304.298,235.248 300.506,237.056 Z" style="stroke:none;fill-rule:nonzero;fill:url(#linearGradientFill1);fill-opacity:1;"/><defs><linearGradient id="linearGradientFill1" gradientUnits="userSpaceOnUse" x1="0" y1="230.501" x2="461.001" y2="230.501"><stop offset="0" stop-color="#000000" stop-opacity="1"/><stop offset="1" stop-color="#000000" stop-opacity="1"/></linearGradient></defs>
+        </g>
+    </g>
+</svg>

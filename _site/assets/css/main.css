@@ -530,6 +530,10 @@ fieldset {
           box-shadow: 0 0 1px transparent;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
+  .hvr-bob #01 {
+    background-image: url("/assets/img/fb-on.svg"); }
+    .hvr-bob #01:hover {
+      background-image: url("/assets/img/fb_bg.svg"); }
 
 .hvr-bob:hover,
 .hvr-bob:focus,
@@ -552,7 +556,7 @@ fieldset {
 .flex-video {
   height: 0;
   overflow: hidden;
-  padding-bottom: 67.5%;
+  padding-bottom: 55%;
   position: relative; }
 
 .flex-video iframe,
@@ -563,7 +567,8 @@ fieldset {
   position: absolute;
   top: 0;
   width: 100%;
-  left: 0; }
+  left: 0;
+  bottom: 0; }
 
 .home-sections .social-positon {
   top: 0;
@@ -598,9 +603,6 @@ fieldset {
     padding: 10px; }
     .home-sections .social-nav li:last-child {
       margin-right: 0; }
-    .home-sections .social-nav li:hover {
-      -webkit-filter: invert(0.3);
-              filter: invert(0.3); }
   .home-sections .social-nav a {
     overflow: hidden;
     text-indent: 101%;
@@ -613,7 +615,59 @@ fieldset {
     background-position: center;
     background-size: contain;
     height: 17px;
-    width: 17px; }
+    width: 17px;
+    padding: 0.5px 0.5px; }
+
+#a1 {
+  background-image: url("/assets/img/fb_bg.svg"); }
+  #a1:hover {
+    background-image: url("/assets/img/fb-on.svg");
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+
+#a2 {
+  background-image: url("/assets/img/tw1.svg"); }
+  #a2:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    background-image: url("/assets/img/tw-on.svg");
+    transform: scale(1.1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+
+#a3 {
+  background-image: url("/assets/img/sc1.svg"); }
+  #a3:hover {
+    background-image: url("/assets/img/sc-on.svg");
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+
+#a4 {
+  background-image: url("/assets/img/ig1.svg"); }
+  #a4:hover {
+    background-image: url("/assets/img/ig-on.svg");
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+
+#a5 {
+  background-image: url("/assets/img/yt1.svg"); }
+  #a5:hover {
+    background-image: url("/assets/img/yt-on.svg");
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
 
 @media (max-width: 640px) {
   .home-sections .social-nav {
@@ -876,21 +930,31 @@ section.posts {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
-            justify-content: center; }
-  section.posts .flex-video {
-    margin-bottom: 60px; }
+            justify-content: center;
+    margin: 0 auto; }
   section.posts .img-0 {
     display: block;
     margin: 0 auto;
     content: url(/assets/img/jan_wiley.jpg); }
+  section.posts .flex-video {
+    margin-bottom: 10%; }
+    section.posts .flex-video:last-child {
+      margin-bottom: 0px; }
+    @media (max-width: 1080px) {
+      section.posts .flex-video {
+        margin-bottom: 8%; } }
   section.posts .img-1 {
     display: block;
     margin: 0 auto;
-    padding: 20px 0 100px 0;
-    content: url(/assets/img/tea.png); }
+    padding-top: 2%;
+    padding-bottom: 6%;
+    content: url(/assets/img/tea22-6-16.jpg);
+    width: 100%; }
     @media (max-width: 1080px) {
       section.posts .img-1 {
-        width: 95%; } }
+        width: 95%;
+        padding-top: 3%;
+        padding-bottom: 8%; } }
 
 section.about {
   background-color: white; }
@@ -1205,7 +1269,7 @@ section.footer {
       background-position: center;
       background-size: contain;
       background-color: rgba(243, 235, 235, 0.64);
-      opacity: 0.9;
+      opacity: 0.85;
       -webkit-filter: contrast(1.1);
               filter: contrast(1.1);
       -webkit-border-radius: 10px;
