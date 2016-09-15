@@ -952,7 +952,6 @@ section.posts {
     width: 100%; }
     @media (max-width: 1080px) {
       section.posts .img-1 {
-        width: 95%;
         padding-top: 3%;
         padding-bottom: 8%; } }
 
