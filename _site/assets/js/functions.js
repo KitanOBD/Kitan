@@ -1,3 +1,17 @@
+//hide header hover
+//$(function() {
+  //    $('.header-position').hide();
+//});
+
+//$(".header, .hover-space").hover(function () {
+  //  $(".header-position").stop().slideDown(300);
+//}, function(){
+  //  $(".header-position").stop().slideUp(300);
+
+//});
+
+//smooth scrolling
+
 $(function() {
 	smoothScroll(600);
 
@@ -17,6 +31,38 @@ function smoothScroll (duration) {
 	    }
 	});
 }
+//parallax scroll
+
+$(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+
+  $('.home-text').css({
+    'transform' : 'translate(0px, '+ wScroll /5.5 +'%)'
+  });
+
+  $('.home-description').css({
+    'transform' : 'translate(0px, '+ wScroll /7 +'%)'
+  });
+
+});
+
+//fade out text
+
+function scrollBanner() {
+  $(document).scroll(function(){
+  	var scrollPos = $(this).scrollTop();
+  	$('.home-title').css({
+  	  'top' : (scrollPos/3)+'px',
+  	  'opacity' : 1-(scrollPos/510)
+  	});
+  	$('.home-home').css({
+  	  'background-position' : 'center ' + (-scrollPos/2)+'px'
+  	});
+  });
+}
+scrollBanner();
+
 
 // Deomonstrate modularity
 function timerModule (options) {
@@ -167,6 +213,5 @@ $(document).ready(function () {
 	        bindings();
 	    });
 
-	});
-
+	})(jQuery);
 });
