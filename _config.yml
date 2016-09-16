@@ -1,5 +1,3 @@
 name: KitanMusic
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-# Google services
-google_analytics: UA-84261015-1
