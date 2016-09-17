@@ -1252,10 +1252,6 @@ section.footer {
       transition: 0.1s ease-in-out; }
       section.footer .social-nav li:last-child {
         margin-right: 0; }
-      section.footer .social-nav li:hover {
-        -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-                transform: scale(1.1); }
     section.footer .social-nav a {
       overflow: hidden;
       text-indent: 101%;
