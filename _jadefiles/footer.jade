@@ -1,11 +1,11 @@
 //footer
 
-mixin social-links()
+mixin icons()
 
   ul
-    li: a(href="https://www.facebook.com/KitanOBD/", style="background-image: url(/assets/img/fb.svg)", target="_blank") facebook
-    li: a(href="https://twitter.com/KitanOBD", target="_blank", style="background-image: url(/assets/img/tw.svg)") twitter
-    //li: a(href="https://soundcloud.com/kitanobd", target="_blank", style="background-image: url(/assets/img/sc.svg)").soundcloud soundcloud
+    li: a(href="https://www.facebook.com/esxko/", style="background-image: url(/assets/img/fb1.svg)", target="_blank") facebook
+    li: a(href="https://twitter.com/esxko_crx", target="_blank", style="background-image: url(/assets/img/tw.svg)") twitter
+    li: a(href="https://soundcloud.com/esxko", target="_blank", style="background-image: url(/assets/img/sc.svg)").soundcloud soundcloud
     //li: a(href="https://www.instagram.com/kitanobd/", target="_blank", style="background-image: url(/assets/img/ig.png)") instagram
     li: a(href="http://obd-a-genius.tumblr.com/", target="_blank", style="background-image: url(/assets/img/tb.svg)") tumblr
     //li: a(href="https://www.youtube.com/channel/UCQab4p_MKNaycxeL-M5YW1g", target="_blank", style="background-image: url(/assets/img/yt.svg)") youtube
@@ -14,8 +14,8 @@ mixin social-links()
 
     
 section.footer
-  .social-position
-    nav.social-nav
-      +social-links()
+  .icon-position
+    nav.icon-nav
+      +icons()
       
       .mobile-nav-toggle: span

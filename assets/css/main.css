@@ -570,17 +570,17 @@ fieldset {
   left: 0;
   bottom: 0; }
 
-.home-sections .social-position {
+.home-sections .icon-position {
   top: 0;
   left: 0;
   bottom: 0;
   right: 0; }
 
-.home-sections .social-nav {
+.home-sections .icon-nav {
   margin-top: 10px;
   margin-bottom: 35px;
   padding-top: 5px; }
-  .home-sections .social-nav ul {
+  .home-sections .icon-nav ul {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -598,12 +598,12 @@ fieldset {
     margin: 0;
     padding: 0;
     text-align: center; }
-  .home-sections .social-nav li {
-    margin-right: 72px;
-    padding: 10px; }
-    .home-sections .social-nav li:last-child {
+  .home-sections .icon-nav li {
+    margin-right: 120px;
+    padding: 5px; }
+    .home-sections .icon-nav li:last-child {
       margin-right: 0; }
-  .home-sections .social-nav a {
+  .home-sections .icon-nav a {
     overflow: hidden;
     text-indent: 101%;
     white-space: nowrap;
@@ -619,9 +619,9 @@ fieldset {
     padding: 0.5px 0.5px; }
 
 #a1 {
-  background-image: url("/assets/img/fb_bg.svg"); }
+  background-image: url("/assets/img/fb1_bg.svg"); }
   #a1:hover {
-    background-image: url("/assets/img/fb-on.svg");
+    background-image: url("/assets/img/fb1-on.svg");
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
@@ -670,9 +670,9 @@ fieldset {
     transition: 0.3s ease-in-out; }
 
 @media (max-width: 640px) {
-  .home-sections .social-nav {
+  .home-sections .icon-nav {
     margin: 20px 0; }
-    .home-sections .social-nav li {
+    .home-sections .icon-nav li {
       margin-right: 30px; } }
 
 .home-wrap header {
@@ -1184,16 +1184,16 @@ textarea {
 section.footer {
   background: white;
   padding: 0; }
-  section.footer .social-position {
+  section.footer .icon-position {
     top: 0;
     left: 0;
     bottom: 0;
     right: 0; }
-  section.footer .social-nav {
+  section.footer .icon-nav {
     margin: 0;
     padding-top: 40px;
     padding-bottom: 65px; }
-    section.footer .social-nav ul {
+    section.footer .icon-nav ul {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -1211,13 +1211,13 @@ section.footer {
       margin: 0;
       padding: 0;
       text-align: center; }
-    section.footer .social-nav li {
+    section.footer .icon-nav li {
       margin-right: 70px;
       -webkit-transition: 0.1s ease-in-out;
       transition: 0.1s ease-in-out; }
-      section.footer .social-nav li:last-child {
+      section.footer .icon-nav li:last-child {
         margin-right: 0; }
-    section.footer .social-nav a {
+    section.footer .icon-nav a {
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
@@ -1236,13 +1236,13 @@ section.footer {
               border-radius: 10px;
       height: 17px;
       width: 17px; }
-      section.footer .social-nav a:hover {
+      section.footer .icon-nav a:hover {
         opacity: 1;
         -webkit-transition: 0.1s ease-in-out;
         transition: 0.1s ease-in-out; }
 
 @media (max-width: 640px) {
-  section.footer .social-nav li {
+  section.footer .icon-nav li {
     margin-right: 30px; } }
 
 .home-wrap {
