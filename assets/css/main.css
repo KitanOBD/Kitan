@@ -570,7 +570,7 @@ fieldset {
   left: 0;
   bottom: 0; }
 
-.home-sections .social-positon {
+.home-sections .social-position {
   top: 0;
   left: 0;
   bottom: 0;
@@ -955,25 +955,6 @@ section.posts {
         padding-top: 3%;
         padding-bottom: 8%; } }
 
-section.about {
-  background-color: white; }
-  section.about .banner {
-    height: 300px;
-    width: 800px;
-    margin-top: 40px;
-    margin-bottom: 35px;
-    padding: 5px 0;
-    background-image: url(/assets/img/about_bg.jpg);
-    background-size: cover;
-    background-position: center top; }
-    @media (max-width: 640px) {
-      section.about .banner {
-        margin: 0 auto;
-        width: 95%; } }
-  section.about .col-3 {
-    text-align: justify;
-    margin-top: 5px; }
-
 section.music {
   background-color: white; }
   section.music .tracks ul {
@@ -1037,22 +1018,6 @@ section.buy-beats {
     color: #3f3f42; }
     section.buy-beats .col-3 .mail a:hover {
       color: #BD5248; }
-
-section.web-design {
-  background-color: white;
-  min-height: 60vh; }
-  section.web-design .col-3 .indent {
-    margin-left: 10px; }
-  section.web-design .col-3 p {
-    text-align: justify;
-    letter-spacing: 0.1px; }
-  section.web-design .col-3 a {
-    color: #BD5248; }
-    section.web-design .col-3 a:hover {
-      color: #3f3f42; }
-  section.web-design .col-3 .segments p {
-    margin-left: 20px;
-    margin-right: 20px; }
 
 section.booking-contact {
   background-color: white;
@@ -1219,7 +1184,7 @@ textarea {
 section.footer {
   background: white;
   padding: 0; }
-  section.footer .social-positon {
+  section.footer .social-position {
     top: 0;
     left: 0;
     bottom: 0;
@@ -1269,10 +1234,12 @@ section.footer {
               filter: contrast(1.1);
       -webkit-border-radius: 10px;
               border-radius: 10px;
-      height: 19px;
-      width: 19px; }
+      height: 17px;
+      width: 17px; }
       section.footer .social-nav a:hover {
-        opacity: 1; }
+        opacity: 1;
+        -webkit-transition: 0.1s ease-in-out;
+        transition: 0.1s ease-in-out; }
 
 @media (max-width: 640px) {
   section.footer .social-nav li {
